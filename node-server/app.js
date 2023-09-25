@@ -33,8 +33,8 @@ io.on('connection', (socket) => {
   })
 });
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8001;
 http.listen(port, () => {
-    console.log('server running at http://52.66.243.220:8000');
+    console.log('server running at http://52.66.243.220:8001');
   });
 
