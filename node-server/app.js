@@ -12,22 +12,14 @@ const io = require('socket.io')(http,{
 
 // Define your Socket.IO code here
 
+app.get('/', (req, res) => {
+  res.send('Hello, this is a GET request response!');
+});
+
 const users = {};
 
 io.on('connection', (socket) => {
   socket.on('new-user-joined', (name) => {
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
-    console.log(name);
     users[socket.id] = name;
     socket.broadcast.emit('user-joined', name);
   });
