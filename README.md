@@ -21,7 +21,7 @@ Check out the live demo of Talk: [Live Demo](http://52.66.243.220)
 
    ```bash
    git clone https://github.com/shivam-kumar-07/Talk-LiveChatApp.git
-   cd talk
+   cd Talk-LiveChatApp
 2. Install the project dependencies:
     ```bash
    npm install
