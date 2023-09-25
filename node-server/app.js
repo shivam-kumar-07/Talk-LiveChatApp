@@ -19,6 +19,9 @@ io.on('connection', (socket) => {
     console.log(name);
     console.log(name);
     console.log(name);
+    console.log(name);
+    console.log(name);
+    console.log(name);
     users[socket.id] = name;
     socket.broadcast.emit('user-joined', name);
   });
