@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Chat Logo">
+        <h1>Talk To Come Closer</h1>
+    </header>
+    <main>
+        <div class="chat-container">
+            <div class="chat received">Received Message 1</div>
+            <div class="chat sent">Sent Message 1</div>
+            <!-- Add more chat messages here -->
+        </div>
+        <form class="message-form" id="send-container">
+            <input type="text" placeholder="Type your message..." id="messageInp">
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js" integrity="sha512-VJ6+sp2E5rFQk05caiXXzQd1wBABpjEj1r5kMiLmGAAgwPItw1YpqsCCBtq8Yr1x6C49/mTpRdXtq8O2RcZhlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
