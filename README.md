@@ -29,7 +29,7 @@ Check out the live demo of Talk: [Live Demo](http://52.66.243.220)
     ```bash
    node app.js
 6. Open the application in your web browser at http://localhost:8000.
-    ```bash
+   
 Usage
 Visit the application's URL (http://52.66.243.220) in your web browser.
 Enter name and enter chat room.
