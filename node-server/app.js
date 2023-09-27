@@ -36,6 +36,6 @@ io.on('connection', (socket) => {
 
 const port = process.env.PORT || 8001;
 http.listen(port, () => {
-    console.log('server running at http://3.110.123.109:8001');
+    console.log('server running at http://65.0.105.107:8001');
   });
 
