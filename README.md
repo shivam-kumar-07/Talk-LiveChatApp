@@ -2,7 +2,7 @@
 
 Talk is a real-time chat application that allows multiple users to join and communicate with each other in real-time. This project is built with HTML, CSS, Node.js, and Socket.io.
 
-Live Demo : (http://65.2.37.222/)
+Live Demo : (http://3.111.47.18/)
 
 ## Features
 
@@ -13,7 +13,7 @@ Live Demo : (http://65.2.37.222/)
 
 ## Live Demo
 
-Check out the live demo of Talk: [Live Demo](http://65.2.37.222/)
+Check out the live demo of Talk: [Live Demo](http://3.111.47.18/)
 
 ## Installation
 
