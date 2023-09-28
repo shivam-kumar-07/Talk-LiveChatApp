@@ -1,0 +1,15 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: .  # Use the current directory as the build context
+      dockerfile: frontend.Dockerfile  # Use the frontend Dockerfile
+    ports:
+      - "9090:80"  # Map port 8080 on the host to port 80 on the container
+
+  backend:
+    build:
+      context: .  # Use the current directory as the build context
+      dockerfile: backend.Dockerfile  # Use the backend Dockerfile
+    ports:
+      - "8001:8001"  # Map port 3000 on the host to port 3000 on the container
