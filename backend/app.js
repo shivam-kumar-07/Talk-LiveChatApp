@@ -13,7 +13,7 @@ const io = require('socket.io')(http,{
 // Define your Socket.IO code here
 
 app.get('/', (req, res) => {
-  console.log("jenkinstest-5")
+  console.log("jenkinstest-6")
   res.send('Hello, this is a GET request response!');
 });
 
