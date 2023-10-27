@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #171616;
+    background-color: #bbddf4;
     color: #0aaff1;
 }
 
@@ -79,7 +79,7 @@ input {
 
 button {
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #0e0f0f;
     color: #fff;
     border: none;
     border-radius: 5px;
